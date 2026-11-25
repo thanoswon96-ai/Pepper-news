@@ -337,6 +337,65 @@
   },
   "stories": [
     {
+      "url": "https://x.com/MaggotX66/status/2124275724035203369",
+      "datetime": "2026-11-21",
+      "en": {
+        "dateLabel": "21 Nov 2026",
+        "headline": "PEPPER IS BACK AND STRONGER THAN EVER",
+        "blurb": "He posted a photo of Pepper and wrote that Pepper is back and stronger than ever.",
+        "imageAlt": "Pepper the raccoon resting against Louka Berman’s chest, on a red and black plaid shirt."
+      },
+      "fr": {
+        "dateLabel": "21 nov. 2026",
+        "headline": "PEPPER EST DE RETOUR, PLUS FORT QUE JAMAIS",
+        "blurb": "Il a publié une photo de Pepper et écrit que Pepper est de retour, plus fort que jamais.",
+        "imageAlt": "Pepper, le raton laveur, appuyé contre la poitrine de Louka Berman, sur une chemise à carreaux rouge et noir."
+      },
+      "image": "images/stronger.jpg"
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2124193448672608423",
+      "datetime": "2026-11-21",
+      "en": {
+        "dateLabel": "21 Nov 2026",
+        "headline": "PEPPER IS BACK, AND THERE ARE BANANA WAFFLES",
+        "blurb": "He posted “Pepper is Back !!!” and called Pepper a tough cookie. He shared a livestream replay and said he was making banana waffles as a reward."
+      },
+      "fr": {
+        "dateLabel": "21 nov. 2026",
+        "headline": "PEPPER EST DE RETOUR, AVEC DES GAUFRES À LA BANANE",
+        "blurb": "Il a écrit « Pepper is Back !!! » et a dit que Pepper est une « tough cookie ». Il a partagé la rediffusion du livestream et a dit qu’il préparait des gaufres à la banane comme récompense."
+      }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2123523785466794319",
+      "datetime": "2026-11-19",
+      "en": {
+        "dateLabel": "19 Nov 2026",
+        "headline": "HE LIVESTREAMED LEAVING PEPPER IN THE FOREST",
+        "blurb": "He thanked people who joined an early, emotional livestream the day before, in which he showed himself dropping Pepper in the forest and leaving without her, hoping it would stop people from snooping around his place. He said Pepper was then alone in the forest, and that he would go live again when he went to find Pepper."
+      },
+      "fr": {
+        "dateLabel": "19 nov. 2026",
+        "headline": "IL A DIFFUSÉ EN DIRECT LE LÂCHER DE PEPPER EN FORÊT",
+        "blurb": "Il a remercié les gens qui s’étaient joints, la veille, à un livestream tôt le matin et émotif, où il s’est filmé en déposant Pepper en forêt et en partant sans elle, dans l’espoir que ça arrête les gens de rôder autour de chez lui. Il a dit que Pepper était alors seule en forêt, et qu’il ferait un autre livestream pour aller la retrouver."
+      }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2123014916147695761",
+      "datetime": "2026-11-18",
+      "en": {
+        "dateLabel": "18 Nov 2026",
+        "headline": "HARASSMENT, AND PEPPER NO LONGER LIVES WITH HIM",
+        "blurb": "He wrote that harassment had gotten to the point where he no longer felt safe, and that Pepper does not live with him anymore. He said he would go live in 10 minutes."
+      },
+      "fr": {
+        "dateLabel": "18 nov. 2026",
+        "headline": "DU HARCÈLEMENT, ET PEPPER NE VIT PLUS CHEZ LUI",
+        "blurb": "Il a écrit que le harcèlement était rendu au point où il ne se sentait plus en sécurité, et que Pepper ne vit plus avec lui. Il a dit qu’il allait passer en direct dans 10 minutes."
+      }
+    },
+    {
       "url": "https://x.com/MaggotX66/status/2119934027876405388",
       "datetime": "2026-11-09",
       "en": {
@@ -431,6 +490,26 @@
     }
   ],
   "latest": [
+    {
+      "url": "https://x.com/MaggotX66/status/2124275724035203369",
+      "en": { "dateLabel": "21 Nov 2026", "label": "JUST IN: Pepper is back and stronger than ever" },
+      "fr": { "dateLabel": "21 nov. 2026", "label": "DERNIÈRE MINUTE : Pepper est de retour, plus fort que jamais" }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2124193448672608423",
+      "en": { "dateLabel": "21 Nov 2026", "label": "Pepper is Back!!!" },
+      "fr": { "dateLabel": "21 nov. 2026", "label": "Pepper est de retour" }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2123523785466794319",
+      "en": { "dateLabel": "19 Nov 2026", "label": "Livestream: Pepper left in the forest" },
+      "fr": { "dateLabel": "19 nov. 2026", "label": "Livestream : Pepper laissée en forêt" }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2123014916147695761",
+      "en": { "dateLabel": "18 Nov 2026", "label": "Louka says Pepper no longer lives with him" },
+      "fr": { "dateLabel": "18 nov. 2026", "label": "Louka dit que Pepper ne vit plus chez lui" }
+    },
     {
       "url": "https://x.com/MaggotX66/status/2119934027876405388",
       "en": {
