@@ -43,7 +43,7 @@ a:hover { text-decoration: underline; }
 }
 .skip:focus { top: 8px; }
 
-.network-bar { background: #000; }
+.network-bar { background: #000; overflow: hidden; }
 .network {
   max-width: var(--max);
   margin: 0 auto;
@@ -52,11 +52,19 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 18px;
-  overflow-x: auto;
+  overflow: hidden;
   scrollbar-width: none;
   min-width: 0;
 }
+.network:not(.is-ready) {
+  overflow-x: auto;
+}
 .network::-webkit-scrollbar { display: none; }
+.network > a.on {
+  flex: none;
+  position: relative;
+  z-index: 1;
+}
 .network a {
   color: #bdbdbd;
   font-size: 12px;
@@ -66,6 +74,70 @@ a:hover { text-decoration: underline; }
 }
 .network a.on,
 .network a:hover { color: #fff; text-decoration: none; }
+
+.network__viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 12px, #000 calc(100% - 20px), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 12px, #000 calc(100% - 20px), transparent);
+}
+
+.network__track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  will-change: transform;
+}
+
+.network__track.is-scrolling {
+  animation: network-crawl var(--ticker-duration, 20s) linear infinite;
+}
+
+.network__set {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex: none;
+}
+
+.network__sep {
+  color: var(--red);
+  font-size: 12px;
+  line-height: 1;
+  flex: none;
+  user-select: none;
+}
+
+@keyframes network-crawl {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-1 * var(--ticker-shift, 50%))); }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .network__viewport:hover .network__track.is-scrolling {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network__track,
+  .network__track.is-scrolling {
+    animation: none;
+  }
+  .network__set[aria-hidden="true"] {
+    display: none;
+  }
+  .network__viewport {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+    scrollbar-width: none;
+  }
+}
 
 .site-header {
   position: sticky;

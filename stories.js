@@ -30,6 +30,137 @@
     if (el) el.innerHTML = html;
   }
 
+  var tickerResizeBound = false;
+
+  function prefersReducedMotion() {
+    return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+
+  function collectNetworkLinks(nav) {
+    var label = nav.querySelector("a.on") || nav.querySelector("a");
+    var source = nav.querySelector(".network__set") || nav;
+    var found = source.querySelectorAll("a");
+    var links = [];
+    var i;
+    for (i = 0; i < found.length; i++) {
+      if (found[i] === label) continue;
+      links.push(found[i].cloneNode(true));
+    }
+    return {
+      label: label ? label.cloneNode(true) : null,
+      links: links
+    };
+  }
+
+  function makeNetworkSet(links, hidden) {
+    var set = document.createElement("div");
+    set.className = "network__set";
+    if (hidden) set.setAttribute("aria-hidden", "true");
+    var i;
+    for (i = 0; i < links.length; i++) {
+      set.appendChild(links[i].cloneNode(true));
+      var sep = document.createElement("span");
+      sep.className = "network__sep";
+      sep.setAttribute("aria-hidden", "true");
+      sep.textContent = "•";
+      set.appendChild(sep);
+    }
+    return set;
+  }
+
+  function syncNetworkTickerSpeed(nav) {
+    var track = nav.querySelector(".network__track");
+    var viewport = nav.querySelector(".network__viewport");
+    var firstSet = nav.querySelector(".network__set");
+    if (!track || !viewport || !firstSet) return;
+
+    if (prefersReducedMotion()) {
+      track.classList.remove("is-scrolling");
+      track.style.removeProperty("--ticker-shift");
+      track.style.removeProperty("--ticker-duration");
+      return;
+    }
+
+    var setWidth = firstSet.getBoundingClientRect().width;
+    var viewWidth = viewport.getBoundingClientRect().width;
+    if (setWidth < 1) return;
+
+    var needed = Math.max(2, Math.ceil((viewWidth + setWidth) / setWidth));
+    var sets = track.querySelectorAll(".network__set");
+    var i;
+    for (i = sets.length; i < needed; i++) {
+      var clone = firstSet.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      track.appendChild(clone);
+    }
+    sets = track.querySelectorAll(".network__set");
+    for (i = sets.length - 1; i >= needed; i--) {
+      if (sets[i].getAttribute("aria-hidden") === "true") {
+        track.removeChild(sets[i]);
+      }
+    }
+
+    var duration = setWidth / 75;
+    track.style.setProperty("--ticker-shift", setWidth + "px");
+    track.style.setProperty("--ticker-duration", duration + "s");
+    track.classList.add("is-scrolling");
+  }
+
+  function bindTickerChrome() {
+    if (tickerResizeBound) return;
+    tickerResizeBound = true;
+    var timer = null;
+    function refresh() {
+      var current = document.getElementById("js-network");
+      if (current && current.classList.contains("is-ready")) {
+        syncNetworkTickerSpeed(current);
+      }
+    }
+    window.addEventListener("resize", function () {
+      clearTimeout(timer);
+      timer = setTimeout(refresh, 150);
+    });
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(refresh);
+    }
+    if (window.matchMedia) {
+      var mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+      if (mq.addEventListener) mq.addEventListener("change", refresh);
+      else if (mq.addListener) mq.addListener(refresh);
+    }
+  }
+
+  function setupNetworkTicker() {
+    var nav = document.getElementById("js-network");
+    if (!nav) return;
+
+    var parts = collectNetworkLinks(nav);
+    if (!parts.label || !parts.links.length) return;
+
+    var viewport = document.createElement("div");
+    viewport.className = "network__viewport";
+
+    var track = document.createElement("div");
+    track.className = "network__track";
+    track.appendChild(makeNetworkSet(parts.links, false));
+    track.appendChild(makeNetworkSet(parts.links, true));
+    viewport.appendChild(track);
+
+    nav.innerHTML = "";
+    nav.appendChild(parts.label);
+    nav.appendChild(viewport);
+    nav.classList.add("is-ready");
+
+    function pause() { track.style.animationPlayState = "paused"; }
+    function resume() { track.style.animationPlayState = ""; }
+    viewport.addEventListener("touchstart", pause, { passive: true });
+    viewport.addEventListener("touchend", resume, { passive: true });
+    viewport.addEventListener("touchcancel", resume, { passive: true });
+
+    syncNetworkTickerSpeed(nav);
+    bindTickerChrome();
+  }
+
   function render(data) {
     if (data.ticker) {
       fill("js-ticker", data.ticker.map(function (item) {
@@ -50,6 +181,7 @@
         var cls = item.current ? ' class="on"' : "";
         return "<a" + cls + ' href="' + esc(item.url) + '">' + esc(item[lang] || "") + "</a>";
       }).join(""));
+      setupNetworkTicker();
     }
 
     if (data.sectionNav) {
@@ -147,6 +279,8 @@
       }).join(""));
     }
   }
+
+  setupNetworkTicker();
 
   fetch(assetBase + "stories.json", { cache: "no-store" })
     .then(function (res) {
