@@ -1,0 +1,554 @@
+{
+  "canonicalBase": "https://thanoswon96-ai.github.io/Pepper-news",
+  "meta": {
+    "en": {
+      "title": "Pepper News — Still on the Run",
+      "description": "Pepper the raccoon is still with Louka Berman. The mission is a refuge. On the run, helping others along the way. #SavePepper",
+      "ogTitle": "RACCOON FUGITIVE STILL AT LARGE",
+      "ogDescription": "On the run, helping others along the way. #SavePepper"
+    },
+    "fr": {
+      "title": "Pepper News — Toujours en cavale",
+      "description": "Pepper, le raton laveur, est toujours avec Louka Berman. La mission est un refuge. En cavale, à aider les autres en chemin. #SavePepper",
+      "ogTitle": "RATON LAVEUR EN FUITE — TOUJOURS INTROUVABLE",
+      "ogDescription": "En cavale, à aider les autres en chemin. #SavePepper"
+    }
+  },
+  "ticker": [
+    {
+      "en": "EVERY TRADE COUNTS",
+      "fr": "CHAQUE TRANSACTION COMPTE"
+    },
+    {
+      "en": "STAND WITH PEPPER: BUY $10 OF $PEPPER TODAY",
+      "fr": "SOUTENEZ PEPPER : ACHETEZ 10 $ DE $PEPPER AUJOURD'HUI"
+    },
+    {
+      "en": "THE FIGHT CONTINUES. #SavePepper",
+      "fr": "LE COMBAT CONTINUE. #SavePepper"
+    }
+  ],
+  "buyButton": {
+    "url": "https://jup.ag/swap/SOL-9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
+    "en": "Buy $10 of $PEPPER",
+    "fr": "Acheter 10 $ de $PEPPER"
+  },
+  "network": [
+    {
+      "url": "#top",
+      "en": "Pepper News",
+      "fr": "Pepper News",
+      "current": true
+    },
+    {
+      "url": "#story",
+      "en": "STILL FREE: Pepper remains with Louka",
+      "fr": "TOUJOURS LIBRE : Pepper reste avec Louka"
+    },
+    {
+      "url": "https://globalnews.ca/news/12104572/montreal-man-raccoon-charges/",
+      "en": "COURT: Louka to fight charges",
+      "fr": "TRIBUNAL : Louka contestera les accusations"
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2117306463773393124",
+      "en": "REFUGE: Mont-Blanc site planned for up to 15 animals",
+      "fr": "REFUGE : site à Mont-Blanc prévu pour jusqu'à 15 animaux"
+    },
+    {
+      "url": "https://www.change.org/p/stop-the-killing-of-pepper-the-montreal-raccoon",
+      "en": "PETITION: thousands sign to save Pepper",
+      "fr": "PÉTITION : des milliers signent pour sauver Pepper"
+    },
+    {
+      "url": "#share",
+      "en": "#SavePepper",
+      "fr": "#SavePepper"
+    },
+    {
+      "url": "https://x.com/pepper_coon",
+      "en": "@pepper_coon",
+      "fr": "@pepper_coon"
+    }
+  ],
+  "sectionNav": [
+    {
+      "url": "https://globalnews.ca/news/12104572/montreal-man-raccoon-charges/",
+      "en": "DEVELOPING: MONTRÉAL MAN VOWS COURT FIGHT TO KEEP RESCUED RACCOON",
+      "fr": "EN DÉVELOPPEMENT : UN MONTRÉALAIS JURE DE SE BATTRE EN COUR POUR GARDER SON RATON LAVEUR RESCAPÉ"
+    },
+    {
+      "url": "https://www.thecanadianpressnews.ca/environment/a-montreal-man-on-the-run-from-authorities-takes-pet-raccoon-for-rabies-vaccination/article_5146b1f5-847e-50ec-b5cb-e9244a488e9c.html",
+      "en": "ON THE RUN: PEPPER VACCINATED IN SECRET AFTER REFUGE COULDN'T TAKE PEPPER IN",
+      "fr": "EN CAVALE : PEPPER VACCINÉ EN SECRET APRÈS QUE LE REFUGE NE POUVAIT PAS L'ACCUEILLIR"
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2119934027876405388",
+      "en": "JUST IN: SECOND SANCTUARY SITE SCOUTED, AND LOUKA SAYS IT FEELS RIGHT",
+      "fr": "DERNIÈRE MINUTE : DEUXIÈME SITE DE REFUGE EXPLORÉ, ET LOUKA DIT QUE ÇA LUI SEMBLE BON"
+    },
+    {
+      "url": "https://podcasts.apple.com/ca/podcast/pet-raccoon-fugitive-trump-drama-montreal-chaos/id903900287?i=1000799462701",
+      "en": "WATCH: PEPPER GOES LIVE ON MONTRÉAL'S BIGGEST SHOW",
+      "fr": "À VOIR : PEPPER EN DIRECT DANS L'UNE DES PLUS GROSSES ÉMISSIONS DE MONTRÉAL"
+    },
+    {
+      "url": "#coin",
+      "en": "CRYPTO: INTERNET LAUNCHES $PEPPER COIN AS FANS RALLY BEHIND RACCOON",
+      "fr": "CRYPTO : INTERNET LANCE LE JETON $PEPPER POUR SOUTENIR LE RATON"
+    },
+    {
+      "url": "https://www.tiktok.com/@pepperanddeadpool",
+      "en": "TikTok",
+      "fr": "TikTok"
+    },
+    {
+      "url": "https://www.instagram.com/pepperanddeadpool",
+      "en": "Instagram",
+      "fr": "Instagram"
+    },
+    {
+      "url": "https://x.com/MaggotX66",
+      "en": "Louka on X",
+      "fr": "Louka sur X"
+    },
+    {
+      "url": "#share",
+      "en": "#SavePepper",
+      "fr": "#SavePepper",
+      "className": "hash"
+    }
+  ],
+  "lead": {
+    "url": "https://x.com/MaggotX66/status/2119934027876405388",
+    "image": "images/road.jpg",
+    "imageAlt": {
+      "en": "Pepper the raccoon, arms out, on Louka Berman’s lap during the sanctuary road trip.",
+      "fr": "Pepper, le raton laveur, les bras ouverts, sur les genoux de Louka Berman pendant la route du refuge."
+    },
+    "kicker": {
+      "en": "ON THE RUN",
+      "fr": "EN CAVALE"
+    },
+    "eyebrow": {
+      "en": "BREAKING",
+      "fr": "DERNIÈRE HEURE"
+    },
+    "headline": {
+      "en": "RACCOON FUGITIVE STILL AT LARGE",
+      "fr": "RATON LAVEUR EN FUITE — TOUJOURS INTROUVABLE"
+    },
+    "dek": {
+      "en": "Officers raided the apartment. Pepper was already gone. Shot with a crossbow as a baby, hunted by a warrant, still free and still with Louka, and fighting for a refuge where no animal has to run. #SavePepper",
+      "fr": "Les agents ont fait une descente dans l’appartement. Pepper était déjà parti. Touché par une arbalète bébé, visé par un mandat, toujours libre et toujours avec Louka, et en train de se battre pour un refuge où aucun animal n’a à fuir. #SavePepper"
+    }
+  },
+  "hotTopics": [
+    {
+      "url": "#share",
+      "en": "#SavePepper",
+      "fr": "#SavePepper"
+    },
+    {
+      "url": "#story",
+      "en": "ON THE RUN",
+      "fr": "EN CAVALE"
+    },
+    {
+      "url": "https://montrealgazette.com/news/a-montreal-man-and-his-unconventional-pet-went-viral-now-pepper-the-raccoon-is-hiding-from-the-law/",
+      "en": "The Warrant",
+      "fr": "Le mandat"
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2117306463773393124",
+      "en": "Mont-Blanc",
+      "fr": "Mont-Blanc"
+    },
+    {
+      "url": "#coin",
+      "en": "$PEPPER",
+      "fr": "$PEPPER"
+    },
+    {
+      "url": "https://globalnews.ca/news/12104572/montreal-man-raccoon-charges/",
+      "en": "The Fight",
+      "fr": "Le combat"
+    }
+  ],
+  "watch": [
+    {
+      "url": "https://www.thebeat925.ca/audio/813011/viral-montreal-raccoon-pepper-visits-the-beat-breakfast-club",
+      "image": "images/beat.jpg",
+      "imageAlt": {
+        "en": "Louka Berman and Pepper in The Beat 92.5 studio.",
+        "fr": "Louka Berman et Pepper dans le studio de The Beat 92.5."
+      },
+      "kicker": {
+        "en": "THE BEAT",
+        "fr": "THE BEAT"
+      },
+      "headline": {
+        "en": "PEPPER TAKES THE MIC AND TAKES THE FIGHT TO CITY HALL",
+        "fr": "PEPPER PREND LE MICRO ET PORTE LE COMBAT À L'HÔTEL DE VILLE"
+      },
+      "related": [
+        {
+          "url": "https://www.thebeat925.ca/audio/813011/viral-montreal-raccoon-pepper-visits-the-beat-breakfast-club",
+          "en": "He used the show to ask for a Montréal refuge with the mayor. #SavePepper",
+          "fr": "Il a utilisé l'émission pour demander un refuge à Montréal, avec le maire. #SavePepper"
+        }
+      ],
+      "imageClass": "pos-beat"
+    },
+    {
+      "url": "https://podcasts.apple.com/ca/podcast/pet-raccoon-fugitive-trump-drama-montreal-chaos/id903900287?i=1000799462701",
+      "image": "images/pantelis.jpg",
+      "imageAlt": {
+        "en": "Pepper on the Pantelis Podcast microphone, held up to the host.",
+        "fr": "Pepper au micro du balado Pantelis, tenu vers l’animateur."
+      },
+      "kicker": {
+        "en": "PODCAST",
+        "fr": "BALADO"
+      },
+      "headline": {
+        "en": "ON MONTRÉAL'S BIGGEST SHOW, LOUKA MAKES PEPPER A PROMISE",
+        "fr": "SUR L'UNE DES PLUS GROSSES ÉMISSIONS DE MONTRÉAL, LOUKA FAIT UNE PROMESSE À PEPPER"
+      },
+      "related": [
+        {
+          "url": "https://x.com/MaggotX66/status/2117306463773393124",
+          "en": "\"The fight isn't over.\" #SavePepper",
+          "fr": "« Le combat continue. » #SavePepper"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2118042885199433980",
+      "image": "images/barely.jpg",
+      "imageAlt": {
+        "en": "Pepper on Louka Berman’s lap during the Barely Edited podcast.",
+        "fr": "Pepper sur les genoux de Louka Berman pendant le balado Barely Edited."
+      },
+      "kicker": {
+        "en": "PODCAST",
+        "fr": "BALADO"
+      },
+      "headline": {
+        "en": "TIRED, STILL POSTING, STILL TOGETHER",
+        "fr": "FATIGUÉ, ENCORE EN LIGNE, ENCORE ENSEMBLE"
+      },
+      "related": [
+        {
+          "url": "https://x.com/MaggotX66/status/2118042885199433980",
+          "en": "\"The fight isn't over,\" he says. #SavePepper",
+          "fr": "« Le combat continue », dit-il. #SavePepper"
+        }
+      ],
+      "imageClass": "pos-barely"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VGWRIcxWneM",
+      "image": "images/ctv.jpg",
+      "imageAlt": {
+        "en": "Louka Berman holding Pepper during a CTV interview by a wooden fence.",
+        "fr": "Louka Berman tient Pepper pendant une entrevue de CTV, près d’une clôture de bois."
+      },
+      "kicker": {
+        "en": "CTV",
+        "fr": "CTV"
+      },
+      "headline": {
+        "en": "FROM HIDING TO PRIME TIME: PEPPER SITS DOWN WITH CTV",
+        "fr": "DE LA CACHETTE À LA PRIMEUR : PEPPER S'ASSEOIT AVEC CTV"
+      },
+      "related": [
+        {
+          "url": "https://www.youtube.com/watch?v=VGWRIcxWneM",
+          "en": "A backyard interview, a microphone, and Pepper along for it. #SavePepper",
+          "fr": "Une entrevue dans la cour, un micro, et Pepper est là. #SavePepper"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2117369823193649214",
+      "image": "images/donut.jpg",
+      "imageAlt": {
+        "en": "Close-up of Pepper eating a piece of donut.",
+        "fr": "Gros plan de Pepper qui mange un morceau de beigne."
+      },
+      "kicker": {
+        "en": "PEPPER",
+        "fr": "PEPPER"
+      },
+      "headline": {
+        "en": "WANTED BY WILDLIFE OFFICERS. WORRIED ABOUT DONUTS.",
+        "fr": "RECHERCHÉ PAR LA FAUNE. INQUIET POUR LES BEIGNES."
+      },
+      "related": [
+        {
+          "url": "https://x.com/MaggotX66/status/2117369823193649214",
+          "en": "His caption. The timeline did the rest. #SavePepper",
+          "fr": "Sa légende, en anglais. Le fil a fait le reste. #SavePepper"
+        }
+      ],
+      "imageClass": "pos-donut"
+    },
+    {
+      "url": "#",
+      "image": "images/holder.jpg",
+      "imageAlt": {
+        "en": "Two people in raccoon onesies holding Pepper in front of an orange wall.",
+        "fr": "Deux personnes en costume de raton laveur tiennent Pepper devant un mur orange."
+      },
+      "kicker": {
+        "en": "THE MEME",
+        "fr": "LE MEME"
+      },
+      "headline": {
+        "en": "MONTRÉAL SUITS UP FOR PEPPER",
+        "fr": "MONTRÉAL EN COSTUME DE RATON POUR PEPPER"
+      },
+      "related": [
+        {
+          "url": "#coin",
+          "en": "The photo is the joke. The refuge is the point. #SavePepper",
+          "fr": "La photo est la blague. Le refuge est le point. #SavePepper"
+        }
+      ],
+      "imageClass": "pos-holder"
+    }
+  ],
+  "poster": {
+    "url": "https://x.com/MaggotX66/status/2117172145344180280",
+    "image": "images/heading.jpg",
+    "imageAlt": {
+      "en": "A poster Louka shared: a man and a raccoon over a Montréal skyline, with the words $PEPPER.",
+      "fr": "Une affiche partagée par Louka : un homme et un raton laveur au-dessus du ciel de Montréal, avec les mots $PEPPER."
+    },
+    "headline": {
+      "en": "THE HOME PEPPER IS FIGHTING FOR",
+      "fr": "LA MAISON POUR LAQUELLE PEPPER SE BAT"
+    },
+    "credit": {
+      "en": "Art, not a photograph. He posted it on the way to Pantelis and credited his mom and Montréal contractor Construction A4.",
+      "fr": "Une illustration, pas une photo. Il l'a publiée en route vers Pantelis et a nommé sa mère et l'entrepreneur montréalais Construction A4."
+    }
+  },
+  "stories": [
+    {
+      "url": "https://x.com/MaggotX66/status/2119934027876405388",
+      "datetime": "2026-11-09",
+      "en": {
+        "dateLabel": "9 Nov 2026",
+        "headline": "SANCTUARY SITE TWO, AND IT FEELS RIGHT",
+        "blurb": "He posted that the look at sanctuary option two felt like the one.",
+        "imageAlt": ""
+      },
+      "fr": {
+        "dateLabel": "9 nov. 2026",
+        "headline": "DEUXIÈME SITE DE REFUGE, ET ÇA LUI SEMBLE BON",
+        "blurb": "Il a écrit que la visite de la deuxième option de refuge lui semblait être la bonne.",
+        "imageAlt": ""
+      },
+      "image": "images/road.jpg"
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2117306463773393124",
+      "datetime": "2026-11-02",
+      "en": {
+        "dateLabel": "2 Nov 2026",
+        "headline": "A WAY HOME: MONT-BLANC NOW, MONTRÉAL NEXT",
+        "blurb": "After Pantelis he named a temporary rehab in Mont-Blanc, with coaching from Refuge Nymous, Construction A4, and his mom. Up to 15 animals, he has said.",
+        "imageAlt": ""
+      },
+      "fr": {
+        "dateLabel": "2 nov. 2026",
+        "headline": "UN CHEMIN VERS LA MAISON : MONT-BLANC D'ABORD, MONTRÉAL ENSUITE",
+        "blurb": "Après Pantelis, il a nommé un refuge temporaire à Mont-Blanc, avec les conseils du Refuge Nymous, de Construction A4 et de sa mère. Jusqu'à 15 animaux, a-t-il dit.",
+        "imageAlt": ""
+      },
+      "image": "images/pantelis.jpg"
+    },
+    {
+      "url": "https://x.com/MaggotX66",
+      "datetime": "2026-05-01",
+      "en": {
+        "dateLabel": "May 2026",
+        "headline": "A CROSSBOW. A CONSTRUCTION SITE. A RESCUE.",
+        "blurb": "He says he found Pepper injured at a construction site, and that Pepper and the mother were shot with a crossbow. Every release, Pepper came back.",
+        "imageAlt": "Louka Berman holding Pepper outdoors. This is his profile photo, not a press handout."
+      },
+      "fr": {
+        "dateLabel": "mai 2026",
+        "headline": "UNE ARBALÈTE. UN CHANTIER. UN SAUVETAGE.",
+        "blurb": "Il dit avoir trouvé Pepper blessé sur un chantier, et que Pepper et la mère ont été touchés par une arbalète. À chaque remise en liberté, Pepper revenait.",
+        "imageAlt": "Louka Berman tient Pepper dehors. C’est sa photo de profil, pas une photo de presse."
+      },
+      "image": "images/avatar.jpg"
+    },
+    {
+      "url": "https://montrealgazette.com/news/a-montreal-man-and-his-unconventional-pet-went-viral-now-pepper-the-raccoon-is-hiding-from-the-law/",
+      "datetime": "2026-10-07",
+      "en": {
+        "dateLabel": "Sept · Oct 2026",
+        "headline": "ONE BIKE RIDE MADE PEPPER FAMOUS. THEN CAME THE WARRANT.",
+        "blurb": "The September ride made him the raccoon guy. In October, officers searched the Plateau apartment. Pepper was already gone. He told The Canadian Press he left with Pepper and was told he would be fined for obstruction."
+      },
+      "fr": {
+        "dateLabel": "sept. · oct. 2026",
+        "headline": "UNE BALADE À VÉLO A RENDU PEPPER CÉLÈBRE. PUIS LE MANDAT.",
+        "blurb": "La balade de septembre en a fait le « raccoon guy ». En octobre, des agents ont fouillé l'appartement du Plateau. Pepper était déjà parti. Il a dit à La Presse canadienne être parti avec Pepper, et qu'on lui annonçait une amende pour entrave."
+      }
+    },
+    {
+      "url": "https://globalnews.ca/news/12104572/montreal-man-raccoon-charges/",
+      "datetime": "2026-10-16",
+      "en": {
+        "dateLabel": "16 Oct 2026",
+        "headline": "CHARGED FOR STANDING BY PEPPER. LOUKA SAYS HE'LL FIGHT IT IN COURT.",
+        "blurb": "Global News: an obstruction case, and a ticket officials wanted to issue for keeping a raccoon without a permit. No conviction."
+      },
+      "fr": {
+        "dateLabel": "16 oct. 2026",
+        "headline": "ACCUSÉ D'ÊTRE RESTÉ AUX CÔTÉS DE PEPPER. LOUKA DIT QU'IL SE BATTRA EN COUR.",
+        "blurb": "Global News : un dossier d'entrave, et un constat que les agents voulaient remettre pour la garde d'un raton laveur sans permis. Aucune condamnation."
+      }
+    },
+    {
+      "url": "https://www.thecanadianpressnews.ca/environment/a-montreal-man-on-the-run-from-authorities-takes-pet-raccoon-for-rabies-vaccination/article_5146b1f5-847e-50ec-b5cb-e9244a488e9c.html",
+      "datetime": "2026-10-26",
+      "en": {
+        "dateLabel": "26 Oct 2026",
+        "headline": "SHUT OUT OF THE REFUGE, VACCINATED ON THE RUN",
+        "blurb": "The Canadian Press: Pepper got a rabies shot near Saint-Damien after Refuge Nymous could not take Pepper in. The ministry calls euthanasia a last resort."
+      },
+      "fr": {
+        "dateLabel": "26 oct. 2026",
+        "headline": "REFUSÉ PAR LE REFUGE, VACCINÉ EN CAVALE",
+        "blurb": "La Presse canadienne : Pepper a reçu un vaccin contre la rage près de Saint-Damien après que le Refuge Nymous n'a pas pu l'accueillir. Le ministère dit que l'euthanasie est un dernier recours."
+      }
+    }
+  ],
+  "latest": [
+    {
+      "url": "https://x.com/MaggotX66/status/2119934027876405388",
+      "en": {
+        "dateLabel": "9 Nov 2026",
+        "label": "JUST IN: Sanctuary site two scouted"
+      },
+      "fr": {
+        "dateLabel": "9 nov. 2026",
+        "label": "DERNIÈRE MINUTE : deuxième site de refuge exploré"
+      }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2118695314479566945",
+      "en": {
+        "dateLabel": "6 Nov 2026",
+        "label": "“Pepper vs. Wildlife Agents” (his caption)"
+      },
+      "fr": {
+        "dateLabel": "6 nov. 2026",
+        "label": "« Pepper vs. Wildlife Agents » (sa légende)"
+      }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2118486477336088733",
+      "en": {
+        "dateLabel": "5 Nov 2026",
+        "label": "Pepper's video licensed to ViralHog"
+      },
+      "fr": {
+        "dateLabel": "5 nov. 2026",
+        "label": "Vidéo de Pepper licenciée à ViralHog"
+      }
+    },
+    {
+      "url": "https://www.thebeat925.ca/audio/813011/viral-montreal-raccoon-pepper-visits-the-beat-breakfast-club",
+      "en": {
+        "dateLabel": "3 Nov 2026",
+        "label": "LIVE: Pepper on The Beat Breakfast Club"
+      },
+      "fr": {
+        "dateLabel": "3 nov. 2026",
+        "label": "EN DIRECT : Pepper au Beat Breakfast Club"
+      }
+    },
+    {
+      "url": "https://x.com/MaggotX66/status/2117306463773393124",
+      "en": {
+        "dateLabel": "2 Nov 2026",
+        "label": "The Mont-Blanc plan"
+      },
+      "fr": {
+        "dateLabel": "2 nov. 2026",
+        "label": "Le plan Mont-Blanc"
+      }
+    },
+    {
+      "url": "https://globalnews.ca/news/12104572/montreal-man-raccoon-charges/",
+      "en": {
+        "dateLabel": "16 Oct 2026",
+        "label": "Louka vows to fight the charge"
+      },
+      "fr": {
+        "dateLabel": "16 oct. 2026",
+        "label": "Louka jure de contester l'accusation"
+      }
+    }
+  ],
+  "press": [
+    {
+      "url": "https://ici.radio-canada.ca/nouvelle/2296366/raton-laveur-pepper-montreal-domestique-autorites",
+      "fr": {
+        "time": "Radio-Canada · 27 oct.",
+        "label": "Le vaccin, et la cavale"
+      }
+    },
+    {
+      "url": "https://globalnews.ca/news/12124980/montreals-raccoon-guy-collects-cryptocurrency-fees/",
+      "fr": {
+        "time": "Global News · 28 oct.",
+        "label": "Ce qu’il a dit des frais"
+      },
+      "en": {
+        "time": "Global News · 28 Oct",
+        "label": "What he said about the fees"
+      }
+    },
+    {
+      "url": "https://montrealgazette.com/news/pepper-montreal-viral-raccoon-cryptocurrency-memecoin/",
+      "fr": {
+        "time": "Gazette · 17 oct.",
+        "label": "Pepper devient le visage d’un jeton"
+      },
+      "en": {
+        "time": "Gazette · 17 Oct",
+        "label": "Pepper becomes the face of a coin"
+      }
+    },
+    {
+      "url": "https://montrealgazette.com/news/a-montreal-man-and-his-unconventional-pet-went-viral-now-pepper-the-raccoon-is-hiding-from-the-law/",
+      "fr": {
+        "time": "Gazette · 7 oct.",
+        "label": "Un mandat. Pepper n’était pas là."
+      },
+      "en": {
+        "time": "Gazette · 7 Oct",
+        "label": "A warrant. Pepper was not found."
+      }
+    },
+    {
+      "url": "https://www.change.org/p/stop-the-killing-of-pepper-the-montreal-raccoon",
+      "fr": {
+        "time": "Pétition",
+        "label": "Des milliers ont signé pour sauver Pepper."
+      },
+      "en": {
+        "time": "Petition",
+        "label": "Thousands have signed to save Pepper."
+      }
+    }
+  ]
+}
